@@ -1,0 +1,212 @@
+@charset "utf-8";
+
+* {padding:0; margin:0; box-sizing:border-box;}
+	html,body {font:10pt  "이사만루체"; color:#666;}
+  img {max-width:100%; display:block;}
+	#layout {width:1000px; margin:auto;} 
+	
+	/* 1 */
+	#logo {margin:auto; }
+  header a {margin:auto; display:block; }
+	
+	nav {display:flex; justify-content:space-around; width:90%; margin:10px auto 10px;}
+  nav a {color:#555; font-size:1.75rem; text-decoration:none;}
+	nav a:hover {color:white; background:#999;}
+	
+	#slide {position:relative; width:4500px; display:flex; align-items:flex-start; }
+  #slide img {width:1000px; height:500px;}
+	
+	#sliding {margin-bottom:100px; position:relative;} /*여백*/
+	#ss {position:relative; overflow:hidden; border:0px solid red;}
+	#sliding h1 {
+  color:black; position:absolute; top:30%; 
+	width:100%; text-align:center; font-size:3rem; 
+	text-shadow:0 1px 5px white, 0 1px 5px white;
+	}
+	#sliding h1 span {font:25pt  "나눔스퀘어"; color:black;}
+	#sliding h1 span:first-child {font-size:2.75rem;}
+  #sliding h1 span:last-child {font-size:2.15rem;}
+	
+	#circle {position:absolute; bottom:30px; width:70px; left:48%; display:flex;}
+	#circle div {width:13px; height:13px; border:4px solid white; border-radius:50%; margin:3px;}
+	#circle div.white {background:white;}
+	
+	
+	/* 2 */
+	main {display:flex;  background:#dfdfdf; height:500px; }
+	main>img {width:325px;}
+	main h2 {
+	color:black; 
+	font-weight:normal; font-size:1.5rem; font-style:italic; 
+	width:100%; 
+	text-shadow:3px 3px 1px gray; 
+  text-align:center; 
+	padding-top:45px;
+	margin-left:35px;
+	}
+	main p {
+	color:black; font-size:1.2rem; 
+	text-align:center; 
+	padding-top:50px;
+	margin-left:55px;
+	}
+  #small_logo {
+	padding-top:45px;
+	margin-left:250px;
+	}
+	
+	/* 3 */
+	article { position:relative;}
+	#content    {opacity:50%; }
+	#content img {display:block; width:100%; height:450px;}
+	#content h2 {display:none;}
+	
+	.about {text-align:center; color:black;}
+	.about h3 {font-size:1.75rem; font-weight:normal; line-height:250%;}
+	.about img { width:150px; height:150px;}
+	.about p {line-height:150%;}
+	
+	#box3 {
+  padding-top:5px;
+	display:flex;
+	align-items:flex-start;
+	justify-content:space-evenly; 
+	position:absolute; width:100%; top:100px;
+	}
+	#box3> section{
+	width:240px; text-align:center;
+	}
+	#box3> section> div {
+	width:150px; height:150px; margin:auto;
+	border-radius:20px;
+	border:7px solid white;
+	overflow:hidden;
+	}
+	
+	/* 4 서울사진학원 국비과정 개강안내 */
+	#info { position:relative;}
+	#info > h2 {
+	font-size:3rem; font-weight:normal; color:black; 
+	margin:55px auto 50px; 
+	position:absolute; 
+	width:100%; text-align:center;
+	text-align:center;
+	}
+	#info > p {
+	font-size:1.6rem; color:black; 
+	position:absolute;
+  width:100%; text-align:center;	
+	margin:140px auto 50px;
+	}
+	#info img { width:100%; height:500px;} 
+	#info div {
+	display:flex; 
+	margin:auto; 
+	justify-content:space-evenly; 
+	position:absolute; 
+	width:100%; top:50%;
+	}
+	
+	.box1 {
+	border:6px solid #f2bc6c;
+	width:150px; height:170px; 
+	background:rgba(255, 255, 255, 0.8);  
+	bottom:190px;
+	border-radius:40px;
+	text-align:center;
+	
+	}
+	.box1 h3 {
+	color:#e47c1b; padding-top:30px;
+	font-weight:normal; font-size:2rem; 
+	line-height:115%; 
+	}
+	.box1 p {color:black; font-size:1.4rem; line-height:220%;}
+	
+	.box2 {
+	border:6px solid #f2bc6c;
+	width:150px; height:170px; 
+	background:rgba(255, 255, 255, 0.8);  
+	bottom:190px;
+	border-radius:40px;
+	text-align:center;
+	}
+	.box2 h3 {
+	color:#965324; padding-top:30px;
+	font-weight:normal; font-size:2rem; 
+	line-height:115%;
+	}
+	.box2 p {color:black; font-size:1.4rem; line-height:220%; }
+
+	/* 5 포트폴리오 */
+	#port {background:#dfdfdf; height:500px; }
+	#portfolio {position:relative; padding-top:30px; line-height:150%;}
+	#portfolio h2 { 
+	font-size:3rem; font-weight:normal; color:black; 
+  text-align:center; 
+	padding-top:40px;
+	}
+	#portfolio p {
+	font-size:1.25rem; color:black; 
+	text-align:center;
+	padding-top:40px;
+	}
+	#port div:last-child {
+	width:83%; 
+	display:flex; justify-content:space-between;
+	margin:auto; margin-top:30px; padding-bottom:60px;
+	}
+	.namebox img {
+	display:block; width:240px; height:160px;
+	box-shawdow:10px 10px 0 #b5b5b5;
+	}
+	.namebox h3 {
+	color:black; 
+	font-weight:normal; 
+	text-align:center; 
+	background:#b5b5b5;
+	padding:10px;
+	margin:auto;
+	margin-top:20px;
+	}
+	
+	/* 6 오시는길 */
+	#endbox {position:relative;}
+	
+	
+	#route { position:relative;}
+	#route h2 {
+	font-size:3rem; font-weight:normal; color:black; 
+	margin:55px auto 50px; 
+  position:absolute;
+	width:100%; text-align:center;
+	text-align:center;
+	top:-20px;
+	}
+	#route img {width:100%; height:620px; opacity:0.7; filter:brightness(30%); position:relative; z-index:-1;/*-1이 가장 밑에 깔림*/}
+	
+	#map { width:70%; position:absolute; top:150px; left:150px;}
+	#map iframe {border:none; width:720px; height:350px; display:block; margin-top:-40px; margin-left:-8px;}
+	
+	#end  { background:#dfdfdf; display:flex; position:absolute; width:100%; bottom:0;  left:0; align-items:center;  padding-left:12%; padding-right:13%;}/*absolute가 되어있으면 top,left 아니면 margin-top 이런거*/
+	#end> img {width:120px;}
+	#end> p { color:#333; line-height:200%; flex:1; font-size:0.9rem; padding-left:30px;}
+	#end div img {display:inline-block; width:40px;padding:0; margin-right:5px; }
+	
+	#name { /*margin-left:50px;*/ padding:0; margin:0;}
+  #name p {font-size:0.8rem; padding-left:2.5px; padding-bottom:8px; color:#333;} 
+	#name img {display:inline-block;  width:28px; height:40px; padding:0; margin:0;}
+	#name img:first-of-type {margin-right:0px;}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
